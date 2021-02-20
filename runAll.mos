@@ -1,0 +1,28 @@
+﻿//close all plots and remove all results
+removePlots(closeResults = true);
+
+//set stop time
+stp = 1909;
+
+//set paths
+pathStdMech = "ElectricVehicle2.Main.stdMechEV";
+pathStdRegen = "ElectricVehicle2.Main.stdRegenEV";
+pathEnhRegen = "ElectricVehicle2.Main.enhRegenEV";
+
+//include translate
+
+//simulate models
+simulateModel(pathStdMech, stopTime = stp, method = "dassl", resultFile = "stdMechEV");
+simulateModel(pathStdRegen, stopTime = stp, method = "dassl", resultFile = "stdRegenEV");
+simulateModel(pathEnhRegen, stopTime = stp, method = "dassl", resultFile = "enhRegenEV");
+
+//create and set up a new plot
+createPlot(leftTitle = "Energy (J)", bottomTitle = "Time (s)", grid = true);
+plotTitle(title = "Energy vs Time");
+
+//plot data
+plot(y = {"totalEnergy.y"}, plotInAll = true) //legends = {"enhRegenEV"}
+
+// EXECUTE A MATLAB SCRIPT?
+// LEGENDS
+// NEW DIAGRAM
