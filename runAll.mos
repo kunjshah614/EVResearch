@@ -17,11 +17,11 @@ simulateModel(pathStdRegen, stopTime = stp, method = "dassl", resultFile = "stdR
 simulateModel(pathEnhRegen, stopTime = stp, method = "dassl", resultFile = "enhRegenEV");
 
 //create and set up a new plot
-createPlot(leftTitle = "Energy (J)", bottomTitle = "Time (s)", grid = true);
+createPlot(bottomTitle = "Time (s)", grid = true);
 plotTitle(title = "Energy vs Time");
 
 //plot data
-plot(y = {"totalEnergy.y"}, plotInAll = true) //legends = {"enhRegenEV"}
+plot(y = {"simplePower.energy.y"}, plotInAll = true) //legends = {"enhRegenEV"}
 
 // EXECUTE A MATLAB SCRIPT?
 // LEGENDS

@@ -1,28 +1,36 @@
 Log-file of program ./dymosim
-(generated: Mon Mar 22 15:53:35 2021)
+(generated: Mon Mar 29 14:39:07 2021)
 
 dymosim started
 ... "dsin.txt" loading (dymosim input file)
-... "stdMechEV.mat" creating (simulation result file)
+... "enhRegenEV.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
-Integration terminated successfully at T = 75
-   CPU-time for integration                : 0.012 seconds
-   CPU-time for one grid interval          : 0.024 milliseconds
+
+... Warning message from dymosim
+At time T = 1.551449e+02 in current integration interval
+T_interval = 1.527200e+02 ... 1.565380e+02
+a large amount of work has been expended
+(about 500 steps) in the integrator. Probably the communication
+interval is too large or the system is stiff.
+
+Integration terminated successfully at T = 1909
+   CPU-time for integration                : 46.8 seconds
+   CPU-time for one grid interval          : 93.6 milliseconds
    CPU-time for initialization             : 0.001 seconds
-   Number of result points                 : 518
+   Number of result points                 : 2410
    Number of grid points                   : 501
-   Number of accepted steps                : 211
-   Number of f-evaluations (dynamics)      : 346
-   Number of crossing function evaluations : 833
-   Number of Jacobian-evaluations          : 114
-   Number of model time events             : 4
+   Number of accepted steps                : 329917
+   Number of f-evaluations (dynamics)      : 794666
+   Number of crossing function evaluations : 344357
+   Number of Jacobian-evaluations          : 164305
+   Number of model time events             : 1
    Number of input time events             : 0
-   Number of state events                  : 5
+   Number of state events                  : 954
    Number of step events                   : 0
-   Minimum integration stepsize            : 3.18e-05
-   Maximum integration stepsize            : 8.82
+   Minimum integration stepsize            : 1.99e-07
+   Maximum integration stepsize            : 15.6
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
