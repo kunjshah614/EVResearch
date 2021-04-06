@@ -21,8 +21,22 @@ createPlot(bottomTitle = "Time (s)", grid = true);
 plotTitle(title = "Energy vs Time");
 
 //plot data
-plot(y = {"simplePower.energy.y"}, plotInAll = true) //legends = {"enhRegenEV"}
-
-// EXECUTE A MATLAB SCRIPT?
-// LEGENDS
-// NEW DIAGRAM
+createPlot(position={15, 10, 600, 400}, y=fill("", 0), heading="Energy vs Time", range={0.0, 2000.0, -0.2, 0.8}, autoscale=false, grid=true, filename="stdMechEV.mat", legendLocation=4, legendHorizontal=false, bottomTitleType=2, bottomTitle="Time (s)");
+plotTitle(id=0, title="Energy vs Time");
+createPlot(id=1, position={162, 38, 568, 347}, y=fill("", 0), heading="Energy Saved (Enhanced vs Standard Regen) vs Time", range={0.0, 2000.0, -0.01, 0.08}, grid=true, legend=false, leftTitleType=2, leftTitle="[kWh]", bottomTitleType=2, bottomTitle="Time (s)", rightTitleType=0);
+createPlot(position={15, 10, 600, 400}, y=fill("", 0), heading="Energy vs Time", range={0.0, 2000.0, -0.2, 0.8}, erase=false, autoscale=false, grid=true, filename="stdRegenEV.mat", legendLocation=4, legendHorizontal=false, bottomTitleType=2, bottomTitle="Time (s)");
+plotTitle(id=0, title="Energy vs Time");
+createPlot(id=1, position={162, 38, 568, 347}, y=fill("", 0), heading="Energy Saved (Enhanced vs Standard Regen) vs Time", range={0.0, 2000.0, -0.01, 0.08}, erase=false, grid=true, legend=false, leftTitleType=2, leftTitle="[kWh]", bottomTitleType=2, bottomTitle="Time (s)", rightTitleType=0);
+createPlot(position={15, 10, 600, 400}, y=fill("", 0), heading="Energy vs Time", range={0.0, 2000.0, -0.2, 0.8}, erase=false, autoscale=false, grid=true, filename="enhRegenEV.mat", legendLocation=4, legendHorizontal=false, bottomTitleType=2, bottomTitle="Time (s)");
+plotTitle(id=0, title="Energy vs Time");
+createPlot(id=1, position={162, 38, 568, 347}, y=fill("", 0), heading="Energy Saved (Enhanced vs Standard Regen) vs Time", range={0.0, 2000.0, -0.01, 0.08}, erase=false, grid=true, legend=false, leftTitleType=2, leftTitle="[kWh]", bottomTitleType=2, bottomTitle="Time (s)", rightTitleType=0);
+createPlot(position={15, 10, 600, 400}, y={"simplePower.energy.y"}, heading="Energy vs Time", range={0.0, 2000.0, -0.2, 0.8}, erase=false, autoscale=false, grid=true, filename="stdMechEV.mat", legendLocation=4, legendHorizontal=false, legends={"stdMechEV"}, bottomTitleType=2, bottomTitle="Time (s)", colors={{28,108,200}}, displayUnits={"kWh"});
+plotTitle(id=0, title="Energy vs Time");
+createPlot(id=1, position={162, 38, 568, 347}, y=fill("", 0), heading="Energy Saved (Enhanced vs Standard Regen) vs Time", range={0.0, 2000.0, -0.01, 0.08}, erase=false, grid=true, legend=false, leftTitleType=2, leftTitle="[kWh]", bottomTitleType=2, bottomTitle="Time (s)", rightTitleType=0);
+createPlot(position={15, 10, 600, 400}, y={"simplePower.energy.y"}, heading="Energy vs Time", range={0.0, 2000.0, -0.2, 0.8}, erase=false, autoscale=false, grid=true, filename="stdRegenEV.mat", legendLocation=4, legendHorizontal=false, legends={"stdRegenEV"}, bottomTitleType=2, bottomTitle="Time (s)", colors={{238,46,47}}, displayUnits={"kWh"});
+plotTitle(id=0, title="Energy vs Time");
+createPlot(id=1, position={162, 38, 568, 347}, y=fill("", 0), heading="Energy Saved (Enhanced vs Standard Regen) vs Time", range={0.0, 2000.0, -0.01, 0.08}, erase=false, grid=true, legend=false, leftTitleType=2, leftTitle="[kWh]", bottomTitleType=2, bottomTitle="Time (s)", rightTitleType=0);
+createPlot(position={15, 10, 600, 400}, y={"simplePower.energy.y"}, heading="Energy vs Time", range={0.0, 2000.0, -0.2, 0.8}, erase=false, autoscale=false, grid=true, filename="enhRegenEV.mat", legendLocation=4, legendHorizontal=false, legends={"enhRegenEV"}, bottomTitleType=2, bottomTitle="Time (s)", colors={{0,140,72}}, displayUnits={"kWh"});
+plotTitle(id=0, title="Energy vs Time");
+createPlot(id=1, position={162, 38, 568, 347}, y=fill("", 0), heading="Energy Saved (Enhanced vs Standard Regen) vs Time", range={0.0, 2000.0, -0.01, 0.08}, erase=false, grid=true, legend=false, leftTitleType=2, leftTitle="[kWh]", bottomTitleType=2, bottomTitle="Time (s)", rightTitleType=0);
+plotExpression(apply((stdRegenEV[end].simplePower.energy.y-enhRegenEV[end].simplePower.energy.y)*2.5E-06/9), false, "Difference", 1);

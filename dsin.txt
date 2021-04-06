@@ -24830,13 +24830,13 @@ double initialValue(9287,6)
   6   388   # partial_Chassis.flange_a.tau
   0       0                       0                       0                
   6   388   # partial_Chassis.inertia.flange_b.tau
- -1  6.7500000000000004E-01       0                 1.0000000000000000E+100
+ -1  4.0499999999999997E-01       0                 1.0000000000000000E+100
   1   280   # partial_Chassis.inertia.J
   0       3                       1                       5                
   6   770   # partial_Chassis.inertia.stateSelect
   0       0                       0                       0                
   6   264   # partial_Chassis.inertia.w
- -1    2000                       0                 1.0000000000000000E+100
+ -1    2001                       0                 1.0000000000000000E+100
   1   280   # partial_Chassis.mass.m
   0       3                       1                       5                
   6   258   # partial_Chassis.mass.stateSelect
@@ -26256,7 +26256,7 @@ double initialValue(9287,6)
   6   388   # flywheel2_1.flywheel.flange_a.tau
   0       0                       0                       0                
   6   388   # flywheel2_1.flywheel.flange_b.tau
- -1       5                       0                 1.0000000000000000E+100
+ -1  8.0000000000000016E-02       0                 1.0000000000000000E+100
   1   280   # flywheel2_1.flywheel.J
   0       3                       1                       5                
   6   770   # flywheel2_1.flywheel.stateSelect

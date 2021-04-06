@@ -24724,15 +24724,15 @@ double initialValue(9287,6)
   6   256   # partial_Controller.brakeAllowance
  -2       0                       0                       0                
   6   256   # partial_Controller.flyClutchRequest
- -2  4.2414140804435521E-02       0                       0                
+ -2  4.6605524572008644E-02       0                       0                
   6   256   # partial_Controller.relVel
- -2  3.7999046049296607E-19       0                       0                
+ -2  5.7474850749752609E-21       0                       0                
   6   256   # partial_Controller.product1.u2
  -2       1                       0                       0                
   6   256   # partial_Controller.product2.u1
- -2  1.1433813954374174E-02       0                       0                
+ -2  1.1040910956969669E-02       0                       0                
   6   388   # partial_Brakes.flange_a.tau
- -2 -1.1433813954374174E-02       0                       0                
+ -2 -1.1040910956969669E-02       0                       0                
   6   388   # partial_Brakes.flange_b.tau
  -2       0                       0                       0                
   6   769   # partial_Brakes.brake.useSupport
@@ -24760,7 +24760,7 @@ double initialValue(9287,6)
   6   256   # partial_Brakes.brake.tau0_max
  -2       1                       0                       0                
   6   321   # partial_Brakes.brake.free
- -2 -1.3953772908362929E-05       0                       0                
+ -2 -1.3471316217696866E-05       0                       0                
   6   256   # partial_Brakes.brake.sa
  -2       0                       0                       0                
   6   361   # partial_Brakes.brake.startForward
@@ -24788,7 +24788,7 @@ double initialValue(9287,6)
   6   769   # partial_Brakes.brake.useHeatPort
  -2       0                       0                       0                
   6   256   # partial_Brakes.brake.lossPower
- -2  2.1539698126702493E+04       0                       0                
+ -2  2.1530439696843277E+04       0                       0                
   6   256   # partial_Brakes.brake.phi
  -2  5.0000000000000000E-01       0                       0                
   6   256   # partial_Brakes.brake.mue0
@@ -24810,11 +24810,11 @@ double initialValue(9287,6)
   6   769   # partial_Chassis.idealRollingWheel.useSupportR
  -2       0                       0                       0                
   6   769   # partial_Chassis.idealRollingWheel.useSupportT
- -2 -2.5116791235053272E-03       0                       0                
+ -2 -2.4260493376450283E-03       0                       0                
   6   388   # partial_Chassis.idealRollingWheel.flangeR.tau
- -2  6.4619094380107481E+03       0                       0                
+ -2  6.4591319090529832E+03       0                       0                
   6   260   # partial_Chassis.idealRollingWheel.flangeT.s
- -2  8.3722637450177571E-03       0                       0                
+ -2  8.0868311254834284E-03       0                       0                
   6   388   # partial_Chassis.idealRollingWheel.flangeT.f
  -1       0                       0                       0                
   1  1304   # partial_Chassis.idealRollingWheel.fixedR.phi0
@@ -24822,45 +24822,45 @@ double initialValue(9287,6)
   1  1304   # partial_Chassis.idealRollingWheel.fixedT.s0
  -1  2.9999999999999999E-01       0                 1.0000000000000000E+100
   1   280   # partial_Chassis.idealRollingWheel.radius
- -2  6.4619094380107481E+03       0                       0                
+ -2  6.4591319090529832E+03       0                       0                
   6   260   # partial_Chassis.speedSensor.flange.s
  -2       0                       0                       0                
   6   388   # partial_Chassis.speedSensor.flange.f
- -2  1.1433813954374174E-02       0                       0                
+ -2  1.1040910956969669E-02       0                       0                
   6   388   # partial_Chassis.flange_a.tau
- -2 -1.1443232751087320E-02       0                       0                
+ -2 -1.1046366840037836E-02       0                       0                
   6   388   # partial_Chassis.inertia.flange_b.tau
- -1  6.7500000000000004E-01       0                 1.0000000000000000E+100
+ -1  4.0499999999999997E-01       0                 1.0000000000000000E+100
   1   280   # partial_Chassis.inertia.J
  -2       3                       1                       5                
   6   770   # partial_Chassis.inertia.stateSelect
- -2  1.3954911874592647E-02       0                       0                
+ -2  1.3472416177682864E-02       0                       0                
   6   264   # partial_Chassis.inertia.w
- -1    2000                       0                 1.0000000000000000E+100
+ -1    2001                       0                 1.0000000000000000E+100
   1   280   # partial_Chassis.mass.m
  -2       3                       1                       5                
   6   258   # partial_Chassis.mass.stateSelect
- -2  6.4619094380107481E+03       0                       0                
+ -2  6.4591319090529832E+03       0                       0                
   6   256   # partial_Chassis.mass.s
  -1       0                       0                       0                
   1   280   # partial_Chassis.mass.L
  -2       0                       0                       0                
   6   388   # partial_Chassis.mass.flange_b.f
- -2  4.1864735623777941E-03       0                       0                
+ -2  4.0417248533048591E-03       0                       0                
   6   256   # partial_Chassis.mass.v
- -2 -4.1861318725088788E-06       0                       0                
+ -2 -4.0413948653090597E-06       0                       0                
   6   256   # partial_Chassis.mass.der(v)
  -1       0                       0                       0                
   1   280   # partial_Chassis.fixed.phi0
- -2  1.3954911874592647E-02       0                       0                
+ -2  1.3472416177682864E-02       0                       0                
   6   388   # partial_Chassis.fixed.flange.tau
- -2  2.1539698126702493E+04       0                       0                
+ -2  2.1530439696843277E+04       0                       0                
   2   280   # partial_Chassis.damper.phi_rel
- -2  1.3954911874592645E-02       0                       0                
+ -2  1.3472416177682862E-02       0                       0                
   3   256   # partial_Chassis.damper.der(phi_rel)
- -2  1.3954911874592647E-02       0                       0                
+ -2  1.3472416177682864E-02       0                       0                
   2   272   # partial_Chassis.damper.w_rel
- -2 -1.3953772908362929E-05       0                       0                
+ -2 -1.3471316217696866E-05       0                       0                
   3   256   # partial_Chassis.damper.der(w_rel)
  -2  1.0000000000000000E-04       0                 1.0000000000000000E+100
   6   256   # partial_Chassis.damper.phi_nominal
@@ -24870,13 +24870,13 @@ double initialValue(9287,6)
   1   280   # partial_Chassis.damper.d
  -2       0                       0                       0                
   6   769   # partial_Chassis.damper.useHeatPort
- -2  1.9473956542764688E-04       0                       0                
+ -2  1.8150599766469095E-04       0                       0                
   6   256   # partial_Chassis.damper.lossPower
- -2 -1.8566874214644683E-06       0                       0                
+ -2 -2.0562185282438898E-06       0                       0                
   6   388   # simplePower.pin_p.i
  -2       0                       0                       0                
   6   260   # simplePower.pin_n.v
- -2  1.8566874214644683E-06       0                       0                
+ -2  2.0562185282438898E-06       0                       0                
   6   388   # simplePower.pin_n.i
  -2       0                       0                       0                
   6   388   # simplePower.driveMotorPowerSensor2.pv.i
@@ -24884,7 +24884,7 @@ double initialValue(9287,6)
   6   260   # simplePower.driveMotorPowerSensor2.nv.v
  -2       0                       0                       0                
   6   388   # simplePower.driveMotorPowerSensor2.nv.i
- -2  6.8697434594185332E-04       0                       0                
+ -2  7.6080085545023924E-04       0                       0                
   6   256   # simplePower.driveMotorPowerSensor2.power
  -2       0                       0                       0                
   6   388   # simplePower.driveMotorPowerSensor2.voltageSensor.p.i
@@ -24910,9 +24910,9 @@ double initialValue(9287,6)
   6   258   # simplePower.energy.initType
  -1       0                       0                       0                
   1   280   # simplePower.energy.y_start
- -2  2.1408629574397597E+06       0                       0                
+ -2  2.1402482135311668E+06       0                       0                
   2   272   # simplePower.energy.y
- -2  6.8697434594185332E-04       0                       0                
+ -2  7.6080085545023924E-04       0                       0                
   3   256   # simplePower.energy.der(y)
  -2       0                       0                       0                
   6   769   # simplePower.energy.local_reset
@@ -24934,17 +24934,17 @@ double initialValue(9287,6)
   6   257   # partial_PMSM.eTraction.useSupport
  -2       0                       0                       0                
   6   257   # partial_PMSM.eTraction.useThermalPort
- -2 -9.5252982306435371E+01       0                       0                
+ -2 -9.5603374541430767E+01       0                       0                
   6   388   # partial_PMSM.eTraction.flange.tau
- -2  3.5925588625804515E-03       0                       0                
+ -2  3.4811034278969390E-03       0                       0                
   6   388   # partial_PMSM.eTraction.pin_p.i
  -2       0                       0                       0                
   6   260   # partial_PMSM.eTraction.pin_n.v
- -2 -3.5925588625804515E-03       0                       0                
+ -2 -3.4811034278969390E-03       0                       0                
   6   388   # partial_PMSM.eTraction.pin_n.i
- -2  1.3954911874592647E-02       0                       0                
+ -2  1.3472416177682864E-02       0                       0                
   6   256   # partial_PMSM.eTraction.desiredSpeed
- -2  9.5252968352662464E+01       0                       0                
+ -2  9.5603361070114545E+01       0                       0                
   6   256   # partial_PMSM.eTraction.controller.setTorque
  -2   10000                       0                       0                
   6   256   # partial_PMSM.eTraction.controller.data.k
@@ -25012,9 +25012,9 @@ double initialValue(9287,6)
   6   256   # partial_PMSM.eTraction.controller.coreElement.PID.P.y
  -2   10000                       0                       0                
   6   256   # partial_PMSM.eTraction.controller.coreElement.PID.gainPID.k
- -2  9.5252968352662459E-03       0                       0                
+ -2  9.5603361070114544E-03       0                       0                
   6   256   # partial_PMSM.eTraction.controller.coreElement.PID.gainPID.u
- -2  9.5252968352662464E+01       0                       0                
+ -2  9.5603361070114545E+01       0                       0                
   6   256   # partial_PMSM.eTraction.controller.coreElement.PID.gainPID.y
  -1       1                       0                       0                
   1   280   # partial_PMSM.eTraction.controller.coreElement.PID.addPID.k1
@@ -25032,7 +25032,7 @@ double initialValue(9287,6)
   6   258   # partial_PMSM.eTraction.controller.coreElement.PID.limiter.homotopyType
  -2       1                       0                       0                
   6   257   # partial_PMSM.eTraction.controller.coreElement.PID.limiter.limitsAtInit
- -2  9.5252968352662464E+01       0                       0                
+ -2  9.5603361070114545E+01       0                       0                
   6   256   # partial_PMSM.eTraction.controller.coreElement.PID.limiter.u
  -2       1                       0                       0                
   6   769   # partial_PMSM.eTraction.controller.coreElement.PID.with_I
@@ -25050,7 +25050,7 @@ double initialValue(9287,6)
   6   257   # partial_PMSM.eTraction.inverter.useThermalPort
  -2       0                       0                       0                
   6   260   # partial_PMSM.eTraction.inverter.n1.v
- -2 -3.5925588625804515E-03       0                       0                
+ -2 -3.4811034278969390E-03       0                       0                
   6   388   # partial_PMSM.eTraction.inverter.p2.i
  -2       0                       0                       0                
   6   260   # partial_PMSM.eTraction.inverter.n2.v
@@ -25060,7 +25060,7 @@ double initialValue(9287,6)
   6   260   # partial_PMSM.eTraction.inverter.inputVoltageSensor1.n.v
  -2       0                       0                       0                
   6   388   # partial_PMSM.eTraction.inverter.inputVoltageSensor1.n.i
- -2  1.3292467791547671E+00       0                       0                
+ -2  1.2880082683218674E+00       0                       0                
   6   256   # partial_PMSM.eTraction.inverter.product1.y
  -2       0                       0                       0                
   6   388   # partial_PMSM.eTraction.inverter.inputVoltageSensor2.p.i
@@ -25068,7 +25068,7 @@ double initialValue(9287,6)
   6   260   # partial_PMSM.eTraction.inverter.inputVoltageSensor2.n.v
  -2       0                       0                       0                
   6   388   # partial_PMSM.eTraction.inverter.inputVoltageSensor2.n.i
- -2 -1.3292467791547671E+00       0                       0                
+ -2 -1.2880082683218674E+00       0                       0                
   6   256   # partial_PMSM.eTraction.inverter.product2.y
  -2       0                       0                       0                
   6   257   # partial_PMSM.eTraction.inverter.useVoltageGuess
@@ -25220,7 +25220,7 @@ double initialValue(9287,6)
   6  1284   # partial_PMSM.eTraction.inverter.coreElement.lossPower.voltageSensor.n.v
  -2       0                       0                       0                
   6  1412   # partial_PMSM.eTraction.inverter.coreElement.lossPower.voltageSensor.n.i
- -2 -1.3292467791547671E+00       0                       0                
+ -2 -1.2880082683218674E+00       0                       0                
   6   256   # partial_PMSM.eTraction.inverter.coreElement.providedPower.y
  -2       0                       0                       0                
   6   256   # partial_PMSM.eTraction.inverter.coreElement.losses.k
@@ -25246,9 +25246,9 @@ double initialValue(9287,6)
   6   260   # partial_PMSM.eTraction.inverter.coreElement.n1.v
  -2       0                       0                       0                
   6   260   # partial_PMSM.eTraction.inverter.coreElement.n2.v
- -2 -1.3292467791547671E+00       0                       0                
+ -2 -1.2880082683218674E+00       0                       0                
   6   256   # partial_PMSM.eTraction.inverter.coreElement.P_AC
- -2  1.3292467791547671E+00       0                       0                
+ -2  1.2880082683218674E+00       0                       0                
   6   288   # partial_PMSM.eTraction.inverter.coreElement.P_DC
  -1  5.0000000000000000E-01       0                       0                
   1   280   # partial_PMSM.eTraction.inverter.gain.k
@@ -25266,9 +25266,9 @@ double initialValue(9287,6)
   1   280   # partial_PMSM.eTraction.inverter.addAbs.k1
  -1       1                       0                       0                
   1   280   # partial_PMSM.eTraction.inverter.addAbs.k2
- -2  1.3292467791547671E+00       0                       0                
+ -2  1.2880082683218674E+00       0                       0                
   6   256   # partial_PMSM.eTraction.inverter.addAbs.add.u1
- -2  1.3292467791547671E+00       0                       0                
+ -2  1.2880082683218674E+00       0                       0                
   6   256   # partial_PMSM.eTraction.inverter.addAbs.add.u2
  -2       0                       0                       0                
   6   256   # partial_PMSM.eTraction.inverter.addAbs.add.y
@@ -25300,7 +25300,7 @@ double initialValue(9287,6)
   6   260   # partial_PMSM.eTraction.machine.electricPowerDC.nv.v
  -2       0                       0                       0                
   6   388   # partial_PMSM.eTraction.machine.electricPowerDC.nv.i
- -2  1.3292467791547671E+00       0                       0                
+ -2  1.2880082683218674E+00       0                       0                
   6   256   # partial_PMSM.eTraction.machine.electricPowerDC.power
  -2       0                       0                       0                
   6   388   # partial_PMSM.eTraction.machine.electricPowerDC.voltageSensor.p.i
@@ -25310,9 +25310,9 @@ double initialValue(9287,6)
   6   388   # partial_PMSM.eTraction.machine.electricPowerDC.voltageSensor.n.i
  -2 -100000                       0                       0                
   6   256   # partial_PMSM.eTraction.machine.toBus_minAvailableTorque.u
- -2  9.5252968352662464E+01       0                       0                
+ -2  9.5603361070114545E+01       0                       0                
   6   256   # partial_PMSM.eTraction.machine.toBus_innerTorque.u
- -2 -1.3292467791547671E+00       0                       0                
+ -2 -1.2880082683218674E+00       0                       0                
   6   256   # partial_PMSM.eTraction.machine.toBus_mechanicPower.u
  -1       0                       0                       0                
   1   280   # partial_PMSM.eTraction.machine.fixed.phi0
@@ -25324,13 +25324,13 @@ double initialValue(9287,6)
   6   388   # partial_PMSM.eTraction.machine.angleSensor.flange_a.tau
  -2       0                       0                       0                
   6   388   # partial_PMSM.eTraction.machine.angleSensor.flange_b.tau
- -2  2.1539698126702493E+04       0                       0                
+ -2  2.1530439696843277E+04       0                       0                
   6   256   # partial_PMSM.eTraction.machine.angleSensor.phi_rel
  -2       0                       0                       0                
   6   388   # partial_PMSM.eTraction.machine.speedSensor.flange_a.tau
  -2       0                       0                       0                
   6   388   # partial_PMSM.eTraction.machine.speedSensor.flange_b.tau
- -2  2.1539698126702493E+04       0                       0                
+ -2  2.1530439696843277E+04       0                       0                
   6   256   # partial_PMSM.eTraction.machine.speedSensor.phi_rel
  -2       0                       0                       0                
   6   257   # partial_PMSM.eTraction.machine.useVoltageGuess
@@ -25426,7 +25426,7 @@ double initialValue(9287,6)
   6   256   # partial_PMSM.eTraction.machine.coreElement.V_guess
  -2       0                       0                       0                
   6   260   # partial_PMSM.eTraction.machine.coreElement.pin_n.v
- -2  1.3292467791547671E+00       0                       0                
+ -2  1.2880082683218674E+00       0                       0                
   6   256   # partial_PMSM.eTraction.machine.coreElement.P_el
  -2       1                       0                       0                
   6   257   # partial_PMSM.eTraction.machine.coreElement.limitDesiredTorque.enableTorqueLimitation
@@ -25436,7 +25436,7 @@ double initialValue(9287,6)
   6   256   # partial_PMSM.eTraction.machine.coreElement.limitDesiredTorque.tau_max
  -2       1                       0                       0                
   6   256   # partial_PMSM.eTraction.machine.coreElement.limitDesiredTorque.characteristicSpeed
- -2  9.5252968352662464E+01       0                 1.0000000000000000E+100
+ -2  9.5603361070114545E+01       0                 1.0000000000000000E+100
   6  1280   # partial_PMSM.eTraction.machine.coreElement.limitDesiredTorque.actualTorque
  -2       0                       0                       0                
   6   769   # partial_PMSM.eTraction.machine.coreElement.torque.useSupport
@@ -25446,7 +25446,7 @@ double initialValue(9287,6)
   6   256   # partial_PMSM.eTraction.machine.coreElement.rotorInertia.J
  -2       3                       1                       5                
   6   770   # partial_PMSM.eTraction.machine.coreElement.rotorInertia.stateSelect
- -2  1.3292467791547671E+00       0                       0                
+ -2  1.2880082683218674E+00       0                       0                
   6   256   # partial_PMSM.eTraction.machine.coreElement.multiSensor.power
  -1      -1                       0                       0                
   1   280   # partial_PMSM.eTraction.machine.coreElement.signChange.k
@@ -25458,13 +25458,13 @@ double initialValue(9287,6)
   6   388   # partial_PMSM.eTraction.machine.coreElement.relSpeedSensor.flange_a.tau
  -2       0                       0                       0                
   6   388   # partial_PMSM.eTraction.machine.coreElement.relSpeedSensor.flange_b.tau
- -2  2.1539698126702493E+04       0                       0                
+ -2  2.1530439696843277E+04       0                       0                
   6   256   # partial_PMSM.eTraction.machine.coreElement.relSpeedSensor.phi_rel
- -2  1.3292467791547671E+00       0                       0                
+ -2  1.2880082683218674E+00       0                       0                
   6   256   # partial_PMSM.eTraction.machine.coreElement.electricPowerSource.P_actual
  -2  100000                       0                       0                
   6   256   # partial_PMSM.eTraction.machine.coreElement.electricPowerSource.i_limit
- -2  3.5925588625804515E-03       0                       0                
+ -2  3.4811034278969390E-03       0                       0                
   6   256   # partial_PMSM.eTraction.machine.coreElement.electricPowerSource.i_des
  -2       0                       0                       0                
   6   260   # partial_PMSM.eTraction.machine.coreElement.electricPowerSource.n.v
@@ -25560,15 +25560,15 @@ double initialValue(9287,6)
   1   280   # partial_PMSM.eTraction.machine.coreElement.compute_P_el.resultingPower.k2
  -2       0                       0                       0                
   6   256   # partial_PMSM.eTraction.machine.coreElement.compute_P_el.losses.k
- -2 -1.3292467791547671E+00       0                       0                
+ -2 -1.2880082683218674E+00       0                       0                
   6   288   # partial_PMSM.eTraction.machine.coreElement.compute_P_el.losses.u
  -2       0                       0                       0                
   6   388   # partial_PMSM.eTraction.speedSensor.flange.tau
- -2  1.1419860181465812E-02       0                       0                
+ -2  1.1027439640751972E-02       0                       0                
   6   388   # partial_PMSM.multiSensor.flange_a.tau
- -2  1.5936314245252499E-04       0                       0                
+ -2  1.4856625621448817E-04       0                       0                
   6   256   # partial_PMSM.multiSensor.power
- -2 -1.3954911874592647E-02       0                       0                
+ -2 -1.3472416177682864E-02       0                       0                
   6   256   # partial_PMSM.motorSwitch.feedback
  -2       0                       0                       0                
   6   256   # partial_PMSM.motorSwitch.regenReference
@@ -25578,7 +25578,7 @@ double initialValue(9287,6)
   6   260   # partial_PMSM.eTractionPowerSensor.nv.v
  -2       0                       0                       0                
   6   388   # partial_PMSM.eTractionPowerSensor.nv.i
- -2  1.3292467791547671E+00       0                       0                
+ -2  1.2880082683218674E+00       0                       0                
   6   256   # partial_PMSM.eTractionPowerSensor.power
  -2       0                       0                       0                
   6   388   # partial_PMSM.eTractionPowerSensor.voltageSensor.p.i
@@ -25586,19 +25586,19 @@ double initialValue(9287,6)
   6   260   # partial_PMSM.eTractionPowerSensor.voltageSensor.n.v
  -2       0                       0                       0                
   6   388   # partial_PMSM.eTractionPowerSensor.voltageSensor.n.i
- -2  4.2965863543235894E-07       0                       0                
+ -2  4.0054938880377394E-07       0                       0                
   6   388   # partial_PMSM.pin_p.i
  -2       0                       0                       0                
   6   260   # partial_PMSM.pin_n.v
- -2 -4.2965863543235894E-07       0                       0                
+ -2 -4.0054938880377394E-07       0                       0                
   6   388   # partial_PMSM.pin_n.i
  -1       1                       0                 1.0000000000000000E+100
   1   280   # partial_PMSM.inertia.J
  -2       3                       1                       5                
   6   770   # partial_PMSM.inertia.stateSelect
- -2 -1.3954911874592647E-02       0                       0                
+ -2 -1.3472416177682864E-02       0                       0                
   6   256   # partial_PMSM.feedback.y
- -2 -3.5921292039450192E-03       0                       0                
+ -2 -3.4807028785081352E-03       0                       0                
   6   388   # partial_PMSM.eRegenPowerSensor.pc.i
  -2       0                       0                       0                
   6   388   # partial_PMSM.eRegenPowerSensor.pv.i
@@ -25606,7 +25606,7 @@ double initialValue(9287,6)
   6   260   # partial_PMSM.eRegenPowerSensor.nv.v
  -2       0                       0                       0                
   6   388   # partial_PMSM.eRegenPowerSensor.nv.i
- -2 -1.3290878054596571E+00       0                       0                
+ -2 -1.2878600650480101E+00       0                       0                
   6   256   # partial_PMSM.eRegenPowerSensor.power
  -2       0                       0                       0                
   6   388   # partial_PMSM.eRegenPowerSensor.voltageSensor.p.i
@@ -25620,13 +25620,13 @@ double initialValue(9287,6)
   6   257   # partial_PMSM.eRegen.useSupport
  -2       0                       0                       0                
   6   257   # partial_PMSM.eRegen.useThermalPort
- -2  9.5241562446253909E+01       0                       0                
+ -2  9.5592347101790011E+01       0                       0                
   6   388   # partial_PMSM.eRegen.flange.tau
  -2       0                       0                       0                
   6   260   # partial_PMSM.eRegen.pin_n.v
- -2  3.5921292039450192E-03       0                       0                
+ -2  3.4807028785081352E-03       0                       0                
   6   388   # partial_PMSM.eRegen.pin_n.i
- -2 -9.5241576400026815E+01       0                       0                
+ -2 -9.5592360573106234E+01       0                       0                
   6   256   # partial_PMSM.eRegen.controller.setTorque
  -2   10000                       0                       0                
   6   256   # partial_PMSM.eRegen.controller.data.k
@@ -25640,7 +25640,7 @@ double initialValue(9287,6)
   6   256   # partial_PMSM.eRegen.controller.coreElement.Ti
  -2     500                       0                       0                
   6   256   # partial_PMSM.eRegen.controller.coreElement.yMax
- -2 -1.3954911874592647E-02       0                       0                
+ -2 -1.3472416177682864E-02       0                       0                
   6   256   # partial_PMSM.eRegen.controller.coreElement.PID.controlError
  -2       2                       1                       4                
   6   258   # partial_PMSM.eRegen.controller.coreElement.PID.controllerType
@@ -25682,7 +25682,7 @@ double initialValue(9287,6)
   6   257   # partial_PMSM.eRegen.controller.coreElement.PID.limitsAtInit
  -2       1                       0                       0                
   6   768   # partial_PMSM.eRegen.controller.coreElement.PID.unitTime
- -2 -1.3954911874592647E-02       0                       0                
+ -2 -1.3472416177682864E-02       0                       0                
   6   256   # partial_PMSM.eRegen.controller.coreElement.PID.addP.y
  -2       1                       0                       0                
   6   256   # partial_PMSM.eRegen.controller.coreElement.PID.addP.k1
@@ -25690,13 +25690,13 @@ double initialValue(9287,6)
   1   280   # partial_PMSM.eRegen.controller.coreElement.PID.addP.k2
  -1       1                       0                       0                
   1   280   # partial_PMSM.eRegen.controller.coreElement.PID.P.k
- -2 -1.3954911874592647E-02       0                       0                
+ -2 -1.3472416177682864E-02       0                       0                
   6   256   # partial_PMSM.eRegen.controller.coreElement.PID.P.y
  -2   10000                       0                       0                
   6   256   # partial_PMSM.eRegen.controller.coreElement.PID.gainPID.k
- -2 -9.5241576400026812E-03       0                       0                
+ -2 -9.5592360573106237E-03       0                       0                
   6   256   # partial_PMSM.eRegen.controller.coreElement.PID.gainPID.u
- -2 -9.5241576400026815E+01       0                       0                
+ -2 -9.5592360573106234E+01       0                       0                
   6   256   # partial_PMSM.eRegen.controller.coreElement.PID.gainPID.y
  -1       1                       0                       0                
   1   280   # partial_PMSM.eRegen.controller.coreElement.PID.addPID.k1
@@ -25714,7 +25714,7 @@ double initialValue(9287,6)
   6   258   # partial_PMSM.eRegen.controller.coreElement.PID.limiter.homotopyType
  -2       1                       0                       0                
   6   257   # partial_PMSM.eRegen.controller.coreElement.PID.limiter.limitsAtInit
- -2 -9.5241576400026815E+01       0                       0                
+ -2 -9.5592360573106234E+01       0                       0                
   6   256   # partial_PMSM.eRegen.controller.coreElement.PID.limiter.u
  -2       1                       0                       0                
   6   769   # partial_PMSM.eRegen.controller.coreElement.PID.with_I
@@ -25732,7 +25732,7 @@ double initialValue(9287,6)
   6   257   # partial_PMSM.eRegen.inverter.useThermalPort
  -2       0                       0                       0                
   6   260   # partial_PMSM.eRegen.inverter.n1.v
- -2  3.5921292039450192E-03       0                       0                
+ -2  3.4807028785081352E-03       0                       0                
   6   388   # partial_PMSM.eRegen.inverter.p2.i
  -2       0                       0                       0                
   6   260   # partial_PMSM.eRegen.inverter.n2.v
@@ -25742,7 +25742,7 @@ double initialValue(9287,6)
   6   260   # partial_PMSM.eRegen.inverter.inputVoltageSensor1.n.v
  -2       0                       0                       0                
   6   388   # partial_PMSM.eRegen.inverter.inputVoltageSensor1.n.i
- -2 -1.3290878054596571E+00       0                       0                
+ -2 -1.2878600650480101E+00       0                       0                
   6   256   # partial_PMSM.eRegen.inverter.product1.y
  -2       0                       0                       0                
   6   388   # partial_PMSM.eRegen.inverter.inputVoltageSensor2.p.i
@@ -25750,7 +25750,7 @@ double initialValue(9287,6)
   6   260   # partial_PMSM.eRegen.inverter.inputVoltageSensor2.n.v
  -2       0                       0                       0                
   6   388   # partial_PMSM.eRegen.inverter.inputVoltageSensor2.n.i
- -2  1.3290878054596571E+00       0                       0                
+ -2  1.2878600650480101E+00       0                       0                
   6   256   # partial_PMSM.eRegen.inverter.product2.y
  -2       0                       0                       0                
   6   257   # partial_PMSM.eRegen.inverter.useVoltageGuess
@@ -25902,7 +25902,7 @@ double initialValue(9287,6)
   6  1284   # partial_PMSM.eRegen.inverter.coreElement.lossPower.voltageSensor.n.v
  -2       0                       0                       0                
   6  1412   # partial_PMSM.eRegen.inverter.coreElement.lossPower.voltageSensor.n.i
- -2 -1.3290878054596571E+00       0                       0                
+ -2 -1.2878600650480101E+00       0                       0                
   6   256   # partial_PMSM.eRegen.inverter.coreElement.providedPower.y
  -2       0                       0                       0                
   6   256   # partial_PMSM.eRegen.inverter.coreElement.losses.k
@@ -25928,9 +25928,9 @@ double initialValue(9287,6)
   6   260   # partial_PMSM.eRegen.inverter.coreElement.n1.v
  -2       0                       0                       0                
   6   260   # partial_PMSM.eRegen.inverter.coreElement.n2.v
- -2  1.3290878054596571E+00       0                       0                
+ -2  1.2878600650480101E+00       0                       0                
   6   256   # partial_PMSM.eRegen.inverter.coreElement.P_AC
- -2 -1.3290878054596571E+00       0                       0                
+ -2 -1.2878600650480101E+00       0                       0                
   6   288   # partial_PMSM.eRegen.inverter.coreElement.P_DC
  -1  5.0000000000000000E-01       0                       0                
   1   280   # partial_PMSM.eRegen.inverter.gain.k
@@ -25948,9 +25948,9 @@ double initialValue(9287,6)
   1   280   # partial_PMSM.eRegen.inverter.addAbs.k1
  -1       1                       0                       0                
   1   280   # partial_PMSM.eRegen.inverter.addAbs.k2
- -2  1.3290878054596571E+00       0                       0                
+ -2  1.2878600650480101E+00       0                       0                
   6   256   # partial_PMSM.eRegen.inverter.addAbs.add.u1
- -2  1.3290878054596571E+00       0                       0                
+ -2  1.2878600650480101E+00       0                       0                
   6   256   # partial_PMSM.eRegen.inverter.addAbs.add.u2
  -2       0                       0                       0                
   6   256   # partial_PMSM.eRegen.inverter.addAbs.add.y
@@ -25982,7 +25982,7 @@ double initialValue(9287,6)
   6   260   # partial_PMSM.eRegen.machine.electricPowerDC.nv.v
  -2       0                       0                       0                
   6   388   # partial_PMSM.eRegen.machine.electricPowerDC.nv.i
- -2 -1.3290878054596571E+00       0                       0                
+ -2 -1.2878600650480101E+00       0                       0                
   6   256   # partial_PMSM.eRegen.machine.electricPowerDC.power
  -2       0                       0                       0                
   6   388   # partial_PMSM.eRegen.machine.electricPowerDC.voltageSensor.p.i
@@ -25992,9 +25992,9 @@ double initialValue(9287,6)
   6   388   # partial_PMSM.eRegen.machine.electricPowerDC.voltageSensor.n.i
  -2    -500                       0                       0                
   6   256   # partial_PMSM.eRegen.machine.toBus_minAvailableTorque.u
- -2 -9.5241576400026815E+01       0                       0                
+ -2 -9.5592360573106234E+01       0                       0                
   6   256   # partial_PMSM.eRegen.machine.toBus_innerTorque.u
- -2  1.3290878054596571E+00       0                       0                
+ -2  1.2878600650480101E+00       0                       0                
   6   256   # partial_PMSM.eRegen.machine.toBus_mechanicPower.u
  -1       0                       0                       0                
   1   280   # partial_PMSM.eRegen.machine.fixed.phi0
@@ -26006,13 +26006,13 @@ double initialValue(9287,6)
   6   388   # partial_PMSM.eRegen.machine.angleSensor.flange_a.tau
  -2       0                       0                       0                
   6   388   # partial_PMSM.eRegen.machine.angleSensor.flange_b.tau
- -2  2.1539698126702493E+04       0                       0                
+ -2  2.1530439696843277E+04       0                       0                
   6   256   # partial_PMSM.eRegen.machine.angleSensor.phi_rel
  -2       0                       0                       0                
   6   388   # partial_PMSM.eRegen.machine.speedSensor.flange_a.tau
  -2       0                       0                       0                
   6   388   # partial_PMSM.eRegen.machine.speedSensor.flange_b.tau
- -2  2.1539698126702493E+04       0                       0                
+ -2  2.1530439696843277E+04       0                       0                
   6   256   # partial_PMSM.eRegen.machine.speedSensor.phi_rel
  -2       0                       0                       0                
   6   257   # partial_PMSM.eRegen.machine.useVoltageGuess
@@ -26108,7 +26108,7 @@ double initialValue(9287,6)
   6   256   # partial_PMSM.eRegen.machine.coreElement.V_guess
  -2       0                       0                       0                
   6   260   # partial_PMSM.eRegen.machine.coreElement.pin_n.v
- -2 -1.3290878054596571E+00       0                       0                
+ -2 -1.2878600650480101E+00       0                       0                
   6   256   # partial_PMSM.eRegen.machine.coreElement.P_el
  -2       1                       0                       0                
   6   257   # partial_PMSM.eRegen.machine.coreElement.limitDesiredTorque.enableTorqueLimitation
@@ -26118,7 +26118,7 @@ double initialValue(9287,6)
   6   256   # partial_PMSM.eRegen.machine.coreElement.limitDesiredTorque.tau_max
  -2       1                       0                       0                
   6   256   # partial_PMSM.eRegen.machine.coreElement.limitDesiredTorque.characteristicSpeed
- -2  9.5241576400026815E+01       0                 1.0000000000000000E+100
+ -2  9.5592360573106234E+01       0                 1.0000000000000000E+100
   6  1280   # partial_PMSM.eRegen.machine.coreElement.limitDesiredTorque.actualTorque
  -2       0                       0                       0                
   6   769   # partial_PMSM.eRegen.machine.coreElement.torque.useSupport
@@ -26128,7 +26128,7 @@ double initialValue(9287,6)
   6   256   # partial_PMSM.eRegen.machine.coreElement.rotorInertia.J
  -2       3                       1                       5                
   6   770   # partial_PMSM.eRegen.machine.coreElement.rotorInertia.stateSelect
- -2 -1.3290878054596571E+00       0                       0                
+ -2 -1.2878600650480101E+00       0                       0                
   6   256   # partial_PMSM.eRegen.machine.coreElement.multiSensor.power
  -1      -1                       0                       0                
   1   280   # partial_PMSM.eRegen.machine.coreElement.signChange.k
@@ -26140,13 +26140,13 @@ double initialValue(9287,6)
   6   388   # partial_PMSM.eRegen.machine.coreElement.relSpeedSensor.flange_a.tau
  -2       0                       0                       0                
   6   388   # partial_PMSM.eRegen.machine.coreElement.relSpeedSensor.flange_b.tau
- -2  2.1539698126702493E+04       0                       0                
+ -2  2.1530439696843277E+04       0                       0                
   6   256   # partial_PMSM.eRegen.machine.coreElement.relSpeedSensor.phi_rel
- -2 -1.3290878054596571E+00       0                       0                
+ -2 -1.2878600650480101E+00       0                       0                
   6   256   # partial_PMSM.eRegen.machine.coreElement.electricPowerSource.P_actual
  -2  100000                       0                       0                
   6   256   # partial_PMSM.eRegen.machine.coreElement.electricPowerSource.i_limit
- -2 -3.5921292039450192E-03       0                       0                
+ -2 -3.4807028785081352E-03       0                       0                
   6   256   # partial_PMSM.eRegen.machine.coreElement.electricPowerSource.i_des
  -2       0                       0                       0                
   6   260   # partial_PMSM.eRegen.machine.coreElement.electricPowerSource.n.v
@@ -26242,7 +26242,7 @@ double initialValue(9287,6)
   1   280   # partial_PMSM.eRegen.machine.coreElement.compute_P_el.resultingPower.k2
  -2       0                       0                       0                
   6   256   # partial_PMSM.eRegen.machine.coreElement.compute_P_el.losses.k
- -2 -1.3290878054596571E+00       0                       0                
+ -2 -1.2878600650480101E+00       0                       0                
   6   288   # partial_PMSM.eRegen.machine.coreElement.compute_P_el.losses.u
  -2       0                       0                       0                
   6   388   # partial_PMSM.eRegen.speedSensor.flange.tau
@@ -26252,23 +26252,23 @@ double initialValue(9287,6)
   6   256   # partial_PMSM.brakeSwitch.b
  -2       0                       0                       0                
   6   388   # flywheel2_1.flange_a.tau
- -2 -6.6117587541598697E-03       0                       0                
+ -2 -7.0467895483879057E-03       0                       0                
   6   388   # flywheel2_1.flywheel.flange_a.tau
- -2  6.3721957902115279E-03       0                       0                
+ -2  7.0427043443843027E-03       0                       0                
   6   388   # flywheel2_1.flywheel.flange_b.tau
- -1       5                       0                 1.0000000000000000E+100
+ -1  8.0000000000000016E-02       0                 1.0000000000000000E+100
   1   280   # flywheel2_1.flywheel.J
  -2       3                       1                       5                
   6   770   # flywheel2_1.flywheel.stateSelect
- -2  1.1141476791953703E+03       0                       0                
+ -2  1.1812132905516326E+03       0                       0                
   6   256   # flywheel2_1.flywheel.phi
- -2  4.7913694777173943E-02       0                       0                
+ -2  5.1066249637237777E-02       0                       0                
   6   264   # flywheel2_1.flywheel.w
- -2 -4.7912592789668431E-05       0                       0                
+ -2 -5.1065050045040147E-05       0                       0                
   6   256   # flywheel2_1.flywheel.der(w)
  -2       0                       0                       0                
   6   769   # flywheel2_1.lossyGear.useSupport
- -2 -5.6199949410358756E-03       0                       0                
+ -2 -5.9897711161297253E-03       0                       0                
   6   388   # flywheel2_1.lossyGear.flange_b.tau
  -2       0                       0                       0                
   6  1280   # flywheel2_1.lossyGear.phi_support
@@ -26288,7 +26288,7 @@ double initialValue(9287,6)
   6   769   # flywheel2_1.lossyGear.useHeatPort
  -2       0                       0                       0                
   6   256   # flywheel2_1.lossyGear.lossPower
- -2 -4.7912592789668424E-05       0                       0                
+ -2 -5.1065050045040147E-05       0                       0                
   6   256   # flywheel2_1.lossyGear.sa
  -2       1                       0                       0                
   6   256   # flywheel2_1.lossyGear.interpolation_result[1, 1]
@@ -26304,7 +26304,7 @@ double initialValue(9287,6)
   6   256   # flywheel2_1.lossyGear.eta_mf2
  -2       0                       0                       0                
   6   256   # flywheel2_1.lossyGear.tau_bf_a
- -2  6.6117587541598697E-03       0                       0                
+ -2  7.0467895483879057E-03       0                       0                
   6   256   # flywheel2_1.lossyGear.tau_eta
  -2       0                       0                       0                
   6   256   # flywheel2_1.lossyGear.tau_bf1
@@ -26358,9 +26358,9 @@ double initialValue(9287,6)
   6   258   # flywheel2_1.lossyGear.Backward
  -2       2                      -1                       3                
   6   330   # flywheel2_1.lossyGear.mode
- -2  6.6117587541598697E-03       0                       0                
+ -2  7.0467895483879057E-03       0                       0                
   6   256   # flywheel2_1.lossyGear.tau_eta_p
- -2  6.6117587541598697E-03       0                       0                
+ -2  7.0467895483879057E-03       0                       0                
   6   256   # flywheel2_1.lossyGear.tau_eta_m
  -2       1                       0                       0                
   6  1280   # flywheel2_1.lossyGear.unitAngularAcceleration
@@ -26376,15 +26376,15 @@ double initialValue(9287,6)
   6  1280   # flywheel2_1.lossyGear.tau_bf2_0
  -2       0                       0                       0                
   6  1280   # flywheel2_1.lossyGear.tau_bf_a_0
- -2 -5.6369052679028173E-03       0                       0                
+ -2 -6.0077940749691510E-03       0                       0                
   6   388   # flywheel2_1.gearInertia.flange_a.tau
  -1  2.9999999999999999E-01       0                 1.0000000000000000E+100
   1   280   # flywheel2_1.gearInertia.J
  -2       3                       1                       5                
   6   770   # flywheel2_1.gearInertia.stateSelect
- -2  1.3107619755239650E+03       0                       0                
+ -2  1.3896626947666266E+03       0                       0                
   6   256   # flywheel2_1.gearInertia.phi
- -2  1.1163565267928922E-02       0                       0                
+ -2  1.2149329308108081E-02       0                       0                
   6   388   # flywheel2_1.flange_b.tau
  -2       0                       0                       0                
   6   388   # flywheel2_1.flyVel.flange.tau
@@ -26392,9 +26392,9 @@ double initialValue(9287,6)
   6   388   # flywheel2_1.gearVel.flange.tau
  -1  8.4999999999999998E-01       0                       0                
   1   280   # flywheel2_1.ratio
- -2 -1.1141476791953703E+03       0                       0                
+ -2 -1.1812132905516326E+03       0                       0                
   6   256   # flywheel2_1.damper.phi_rel
- -2 -4.7913694777173945E-03       0                       0                
+ -2 -5.1066249637237784E-03       0                       0                
   6   256   # flywheel2_1.damper.tau
  -2  1.0000000000000000E-04       0                 1.0000000000000000E+100
   6   256   # flywheel2_1.damper.phi_nominal
@@ -26404,17 +26404,17 @@ double initialValue(9287,6)
   1   280   # flywheel2_1.damper.d
  -2       0                       0                       0                
   6   769   # flywheel2_1.damper.useHeatPort
- -2  2.2957221472001856E-04       0                       0                
+ -2  2.6077618520126876E-04       0                       0                
   6   256   # flywheel2_1.damper.lossPower
- -2 -1.3107619755239650E+03       0                       0                
+ -2 -1.3896626947666266E+03       0                       0                
   2   280   # flywheel2_1.damper1.phi_rel
- -2 -5.6369052679028170E-02       0                       0                
+ -2 -6.0077940749691507E-02       0                       0                
   3   256   # flywheel2_1.damper1.der(phi_rel)
- -2 -5.6369052679028170E-02       0                       0                
+ -2 -6.0077940749691507E-02       0                       0                
   2   272   # flywheel2_1.damper1.w_rel
- -2  5.6367756223139330E-05       0                       0                
+ -2  6.0076529464753113E-05       0                       0                
   3   256   # flywheel2_1.damper1.der(w_rel)
- -2 -5.6369052679028173E-03       0                       0                
+ -2 -6.0077940749691510E-03       0                       0                
   6   256   # flywheel2_1.damper1.tau
  -2  1.0000000000000000E-04       0                 1.0000000000000000E+100
   6   256   # flywheel2_1.damper1.phi_nominal
@@ -26424,17 +26424,17 @@ double initialValue(9287,6)
   1   280   # flywheel2_1.damper1.d
  -2       0                       0                       0                
   6   769   # flywheel2_1.damper1.useHeatPort
- -2  3.1774700999310531E-04       0                       0                
+ -2  3.6093589647234433E-04       0                       0                
   6   256   # flywheel2_1.damper1.lossPower
  -1       0                       0                       0                
   1   280   # flywheel2_1.fixed.phi0
- -2  1.0428274745620213E-02       0                       0                
+ -2  1.1114419038692929E-02       0                       0                
   6   388   # flywheel2_1.fixed.flange.tau
- -2 -2.0228936151178528E+04       0                       0                
+ -2 -2.0140777002076651E+04       0                       0                
   6   256   # flywheel2_1.clutch.phi_rel
- -2  4.2414140804435521E-02       0                       0                
+ -2  4.6605524572008644E-02       0                       0                
   6   256   # flywheel2_1.clutch.w_rel
- -2 -4.2413983314776401E-05       0                       0                
+ -2 -4.6605213247056249E-05       0                       0                
   6   256   # flywheel2_1.clutch.der(w_rel)
  -2  1.0000000000000000E-04       0                 1.0000000000000000E+100
   6   256   # flywheel2_1.clutch.phi_nominal
@@ -26458,7 +26458,7 @@ double initialValue(9287,6)
   6   256   # flywheel2_1.clutch.tau0_max
  -2       1                       0                       0                
   6   321   # flywheel2_1.clutch.free
- -2 -4.2413983314776414E-05       0                       0                
+ -2 -4.6605213247056263E-05       0                       0                
   6   256   # flywheel2_1.clutch.sa
  -2       0                       0                       0                
   6   361   # flywheel2_1.clutch.startForward
@@ -26512,17 +26512,17 @@ double initialValue(9287,6)
   6   257   # regenPMSM.eTraction.useSupport
  -2       0                       0                       0                
   6   257   # regenPMSM.eTraction.useThermalPort
- -2 -5.2520291772268146E-01       0                       0                
+ -2 -4.9491607333217735E-01       0                       0                
   6   388   # regenPMSM.eTraction.flange.tau
- -2  6.8005720612159052E-05       0                       0                
+ -2  6.8299729863970562E-05       0                       0                
   6   388   # regenPMSM.eTraction.pin_p.i
  -2       0                       0                       0                
   6   260   # regenPMSM.eTraction.pin_n.v
- -2 -6.8005720612159052E-05       0                       0                
+ -2 -6.8299729863970562E-05       0                       0                
   6   388   # regenPMSM.eTraction.pin_n.i
- -2  4.7913694777173943E-02       0                       0                
+ -2  5.1066249637237777E-02       0                       0                
   6   256   # regenPMSM.eTraction.desiredSpeed
- -2  5.2515500512989177E-01       0                       0                
+ -2  4.9486500828213231E-01       0                       0                
   6   256   # regenPMSM.eTraction.controller.setTorque
  -2   10000                       0                       0                
   6   256   # regenPMSM.eTraction.controller.data.k
@@ -26590,9 +26590,9 @@ double initialValue(9287,6)
   6   256   # regenPMSM.eTraction.controller.coreElement.PID.P.y
  -2   10000                       0                       0                
   6   256   # regenPMSM.eTraction.controller.coreElement.PID.gainPID.k
- -2  5.2515500512989176E-05       0                       0                
+ -2  4.9486500828213232E-05       0                       0                
   6   256   # regenPMSM.eTraction.controller.coreElement.PID.gainPID.u
- -2  5.2515500512989177E-01       0                       0                
+ -2  4.9486500828213231E-01       0                       0                
   6   256   # regenPMSM.eTraction.controller.coreElement.PID.gainPID.y
  -1       1                       0                       0                
   1   280   # regenPMSM.eTraction.controller.coreElement.PID.addPID.k1
@@ -26610,7 +26610,7 @@ double initialValue(9287,6)
   6   258   # regenPMSM.eTraction.controller.coreElement.PID.limiter.homotopyType
  -2       1                       0                       0                
   6   257   # regenPMSM.eTraction.controller.coreElement.PID.limiter.limitsAtInit
- -2  5.2515500512989177E-01       0                       0                
+ -2  4.9486500828213231E-01       0                       0                
   6   256   # regenPMSM.eTraction.controller.coreElement.PID.limiter.u
  -2       1                       0                       0                
   6   769   # regenPMSM.eTraction.controller.coreElement.PID.with_I
@@ -26628,7 +26628,7 @@ double initialValue(9287,6)
   6   257   # regenPMSM.eTraction.inverter.useThermalPort
  -2       0                       0                       0                
   6   260   # regenPMSM.eTraction.inverter.n1.v
- -2 -6.8005720612159052E-05       0                       0                
+ -2 -6.8299729863970562E-05       0                       0                
   6   388   # regenPMSM.eTraction.inverter.p2.i
  -2       0                       0                       0                
   6   260   # regenPMSM.eTraction.inverter.n2.v
@@ -26638,7 +26638,7 @@ double initialValue(9287,6)
   6   260   # regenPMSM.eTraction.inverter.inputVoltageSensor1.n.v
  -2       0                       0                       0                
   6   388   # regenPMSM.eTraction.inverter.inputVoltageSensor1.n.i
- -2  2.5162116626498851E-02       0                       0                
+ -2  2.5270900049669108E-02       0                       0                
   6   256   # regenPMSM.eTraction.inverter.product1.y
  -2       0                       0                       0                
   6   388   # regenPMSM.eTraction.inverter.inputVoltageSensor2.p.i
@@ -26646,7 +26646,7 @@ double initialValue(9287,6)
   6   260   # regenPMSM.eTraction.inverter.inputVoltageSensor2.n.v
  -2       0                       0                       0                
   6   388   # regenPMSM.eTraction.inverter.inputVoltageSensor2.n.i
- -2 -2.5162116626498851E-02       0                       0                
+ -2 -2.5270900049669108E-02       0                       0                
   6   256   # regenPMSM.eTraction.inverter.product2.y
  -2       0                       0                       0                
   6   257   # regenPMSM.eTraction.inverter.useVoltageGuess
@@ -26798,7 +26798,7 @@ double initialValue(9287,6)
   6  1284   # regenPMSM.eTraction.inverter.coreElement.lossPower.voltageSensor.n.v
  -2       0                       0                       0                
   6  1412   # regenPMSM.eTraction.inverter.coreElement.lossPower.voltageSensor.n.i
- -2 -2.5162116626498851E-02       0                       0                
+ -2 -2.5270900049669108E-02       0                       0                
   6   256   # regenPMSM.eTraction.inverter.coreElement.providedPower.y
  -2       0                       0                       0                
   6   256   # regenPMSM.eTraction.inverter.coreElement.losses.k
@@ -26824,9 +26824,9 @@ double initialValue(9287,6)
   6   260   # regenPMSM.eTraction.inverter.coreElement.n1.v
  -2       0                       0                       0                
   6   260   # regenPMSM.eTraction.inverter.coreElement.n2.v
- -2 -2.5162116626498851E-02       0                       0                
+ -2 -2.5270900049669108E-02       0                       0                
   6   256   # regenPMSM.eTraction.inverter.coreElement.P_AC
- -2  2.5162116626498851E-02       0                       0                
+ -2  2.5270900049669108E-02       0                       0                
   6   288   # regenPMSM.eTraction.inverter.coreElement.P_DC
  -1  5.0000000000000000E-01       0                       0                
   1   280   # regenPMSM.eTraction.inverter.gain.k
@@ -26844,9 +26844,9 @@ double initialValue(9287,6)
   1   280   # regenPMSM.eTraction.inverter.addAbs.k1
  -1       1                       0                       0                
   1   280   # regenPMSM.eTraction.inverter.addAbs.k2
- -2  2.5162116626498851E-02       0                       0                
+ -2  2.5270900049669108E-02       0                       0                
   6   256   # regenPMSM.eTraction.inverter.addAbs.add.u1
- -2  2.5162116626498851E-02       0                       0                
+ -2  2.5270900049669108E-02       0                       0                
   6   256   # regenPMSM.eTraction.inverter.addAbs.add.u2
  -2       0                       0                       0                
   6   256   # regenPMSM.eTraction.inverter.addAbs.add.y
@@ -26878,7 +26878,7 @@ double initialValue(9287,6)
   6   260   # regenPMSM.eTraction.machine.electricPowerDC.nv.v
  -2       0                       0                       0                
   6   388   # regenPMSM.eTraction.machine.electricPowerDC.nv.i
- -2  2.5162116626498851E-02       0                       0                
+ -2  2.5270900049669108E-02       0                       0                
   6   256   # regenPMSM.eTraction.machine.electricPowerDC.power
  -2       0                       0                       0                
   6   388   # regenPMSM.eTraction.machine.electricPowerDC.voltageSensor.p.i
@@ -26888,9 +26888,9 @@ double initialValue(9287,6)
   6   388   # regenPMSM.eTraction.machine.electricPowerDC.voltageSensor.n.i
  -2 -100000                       0                       0                
   6   256   # regenPMSM.eTraction.machine.toBus_minAvailableTorque.u
- -2  5.2515500512989177E-01       0                       0                
+ -2  4.9486500828213231E-01       0                       0                
   6   256   # regenPMSM.eTraction.machine.toBus_innerTorque.u
- -2 -2.5162116626498851E-02       0                       0                
+ -2 -2.5270900049669108E-02       0                       0                
   6   256   # regenPMSM.eTraction.machine.toBus_mechanicPower.u
  -1       0                       0                       0                
   1   280   # regenPMSM.eTraction.machine.fixed.phi0
@@ -26902,13 +26902,13 @@ double initialValue(9287,6)
   6   388   # regenPMSM.eTraction.machine.angleSensor.flange_a.tau
  -2       0                       0                       0                
   6   388   # regenPMSM.eTraction.machine.angleSensor.flange_b.tau
- -2  1.1141476791953703E+03       0                       0                
+ -2  1.1812132905516326E+03       0                       0                
   6   256   # regenPMSM.eTraction.machine.angleSensor.phi_rel
  -2       0                       0                       0                
   6   388   # regenPMSM.eTraction.machine.speedSensor.flange_a.tau
  -2       0                       0                       0                
   6   388   # regenPMSM.eTraction.machine.speedSensor.flange_b.tau
- -2  1.1141476791953703E+03       0                       0                
+ -2  1.1812132905516326E+03       0                       0                
   6   256   # regenPMSM.eTraction.machine.speedSensor.phi_rel
  -2       0                       0                       0                
   6   257   # regenPMSM.eTraction.machine.useVoltageGuess
@@ -27004,7 +27004,7 @@ double initialValue(9287,6)
   6   256   # regenPMSM.eTraction.machine.coreElement.V_guess
  -2       0                       0                       0                
   6   260   # regenPMSM.eTraction.machine.coreElement.pin_n.v
- -2  2.5162116626498851E-02       0                       0                
+ -2  2.5270900049669108E-02       0                       0                
   6   256   # regenPMSM.eTraction.machine.coreElement.P_el
  -2       1                       0                       0                
   6   257   # regenPMSM.eTraction.machine.coreElement.limitDesiredTorque.enableTorqueLimitation
@@ -27014,7 +27014,7 @@ double initialValue(9287,6)
   6   256   # regenPMSM.eTraction.machine.coreElement.limitDesiredTorque.tau_max
  -2       1                       0                       0                
   6   256   # regenPMSM.eTraction.machine.coreElement.limitDesiredTorque.characteristicSpeed
- -2  5.2515500512989177E-01       0                 1.0000000000000000E+100
+ -2  4.9486500828213231E-01       0                 1.0000000000000000E+100
   6  1280   # regenPMSM.eTraction.machine.coreElement.limitDesiredTorque.actualTorque
  -2       0                       0                       0                
   6   769   # regenPMSM.eTraction.machine.coreElement.torque.useSupport
@@ -27024,7 +27024,7 @@ double initialValue(9287,6)
   6   256   # regenPMSM.eTraction.machine.coreElement.rotorInertia.J
  -2       3                       1                       5                
   6   770   # regenPMSM.eTraction.machine.coreElement.rotorInertia.stateSelect
- -2  2.5162116626498851E-02       0                       0                
+ -2  2.5270900049669108E-02       0                       0                
   6   256   # regenPMSM.eTraction.machine.coreElement.multiSensor.power
  -1      -1                       0                       0                
   1   280   # regenPMSM.eTraction.machine.coreElement.signChange.k
@@ -27036,13 +27036,13 @@ double initialValue(9287,6)
   6   388   # regenPMSM.eTraction.machine.coreElement.relSpeedSensor.flange_a.tau
  -2       0                       0                       0                
   6   388   # regenPMSM.eTraction.machine.coreElement.relSpeedSensor.flange_b.tau
- -2  1.1141476791953703E+03       0                       0                
+ -2  1.1812132905516326E+03       0                       0                
   6   256   # regenPMSM.eTraction.machine.coreElement.relSpeedSensor.phi_rel
- -2  2.5162116626498851E-02       0                       0                
+ -2  2.5270900049669108E-02       0                       0                
   6   256   # regenPMSM.eTraction.machine.coreElement.electricPowerSource.P_actual
  -2  100000                       0                       0                
   6   256   # regenPMSM.eTraction.machine.coreElement.electricPowerSource.i_limit
- -2  6.8005720612159052E-05       0                       0                
+ -2  6.8299729863970562E-05       0                       0                
   6   256   # regenPMSM.eTraction.machine.coreElement.electricPowerSource.i_des
  -2       0                       0                       0                
   6   260   # regenPMSM.eTraction.machine.coreElement.electricPowerSource.n.v
@@ -27138,15 +27138,15 @@ double initialValue(9287,6)
   1   280   # regenPMSM.eTraction.machine.coreElement.compute_P_el.resultingPower.k2
  -2       0                       0                       0                
   6   256   # regenPMSM.eTraction.machine.coreElement.compute_P_el.losses.k
- -2 -2.5162116626498851E-02       0                       0                
+ -2 -2.5270900049669108E-02       0                       0                
   6   288   # regenPMSM.eTraction.machine.coreElement.compute_P_el.losses.u
  -2       0                       0                       0                
   6   388   # regenPMSM.eTraction.speedSensor.flange.tau
- -2  1.1115652675139254E-02       0                       0                
+ -2  1.2098264258063041E-02       0                       0                
   6   388   # regenPMSM.multiSensor.flange_a.tau
- -2  5.3259198952569924E-04       0                       0                
+ -2  6.1781298277951849E-04       0                       0                
   6   256   # regenPMSM.multiSensor.power
- -2 -4.7913694777173943E-02       0                       0                
+ -2 -5.1066249637237777E-02       0                       0                
   6   256   # regenPMSM.motorSwitch.feedback
  -2       0                       0                       0                
   6   256   # regenPMSM.motorSwitch.regenReference
@@ -27156,7 +27156,7 @@ double initialValue(9287,6)
   6   260   # regenPMSM.eTractionPowerSensor.nv.v
  -2       0                       0                       0                
   6   388   # regenPMSM.eTractionPowerSensor.nv.i
- -2  2.5162116626498851E-02       0                       0                
+ -2  2.5270900049669108E-02       0                       0                
   6   256   # regenPMSM.eTractionPowerSensor.power
  -2       0                       0                       0                
   6   388   # regenPMSM.eTractionPowerSensor.voltageSensor.p.i
@@ -27164,19 +27164,19 @@ double initialValue(9287,6)
   6   260   # regenPMSM.eTractionPowerSensor.voltageSensor.n.v
  -2       0                       0                       0                
   6   388   # regenPMSM.eTractionPowerSensor.voltageSensor.n.i
- -2  1.4270287860321094E-06       0                       0                
+ -2  1.6556691394401158E-06       0                       0                
   6   388   # regenPMSM.pin_p.i
  -2       0                       0                       0                
   6   260   # regenPMSM.pin_n.v
- -2 -1.4270287860321094E-06       0                       0                
+ -2 -1.6556691394401158E-06       0                       0                
   6   388   # regenPMSM.pin_n.i
  -1       1                       0                 1.0000000000000000E+100
   1   280   # regenPMSM.inertia.J
  -2       3                       1                       5                
   6   770   # regenPMSM.inertia.stateSelect
- -2 -4.7913694777173943E-02       0                       0                
+ -2 -5.1066249637237777E-02       0                       0                
   6   256   # regenPMSM.feedback.y
- -2 -6.6578691826126943E-05       0                       0                
+ -2 -6.6644060724530446E-05       0                       0                
   6   388   # regenPMSM.eRegenPowerSensor.pc.i
  -2       0                       0                       0                
   6   388   # regenPMSM.eRegenPowerSensor.pv.i
@@ -27184,7 +27184,7 @@ double initialValue(9287,6)
   6   260   # regenPMSM.eRegenPowerSensor.nv.v
  -2       0                       0                       0                
   6   388   # regenPMSM.eRegenPowerSensor.nv.i
- -2 -2.4634115975666969E-02       0                       0                
+ -2 -2.4658302468076265E-02       0                       0                
   6   256   # regenPMSM.eRegenPowerSensor.power
  -2       0                       0                       0                
   6   388   # regenPMSM.eRegenPowerSensor.voltageSensor.p.i
@@ -27196,13 +27196,13 @@ double initialValue(9287,6)
   6   257   # regenPMSM.eRegen.useSupport
  -2       0                       0                       0                
   6   257   # regenPMSM.eRegen.useThermalPort
- -2  5.1408726504754221E-01       0                       0                
+ -2  4.8281780907411431E-01       0                       0                
   6   388   # regenPMSM.eRegen.flange.tau
  -2       0                       0                       0                
   6   260   # regenPMSM.eRegen.pin_n.v
- -2  6.6578691826126943E-05       0                       0                
+ -2  6.6644060724530446E-05       0                       0                
   6   388   # regenPMSM.eRegen.pin_n.i
- -2 -5.1413517764033190E-01       0                       0                
+ -2 -4.8286887412415935E-01       0                       0                
   6   256   # regenPMSM.eRegen.controller.setTorque
  -2   10000                       0                       0                
   6   256   # regenPMSM.eRegen.controller.data.k
@@ -27216,7 +27216,7 @@ double initialValue(9287,6)
   6   256   # regenPMSM.eRegen.controller.coreElement.Ti
  -2     500                       0                       0                
   6   256   # regenPMSM.eRegen.controller.coreElement.yMax
- -2 -4.7913694777173943E-02       0                       0                
+ -2 -5.1066249637237777E-02       0                       0                
   6   256   # regenPMSM.eRegen.controller.coreElement.PID.controlError
  -2       2                       1                       4                
   6   258   # regenPMSM.eRegen.controller.coreElement.PID.controllerType
@@ -27258,7 +27258,7 @@ double initialValue(9287,6)
   6   257   # regenPMSM.eRegen.controller.coreElement.PID.limitsAtInit
  -2       1                       0                       0                
   6   768   # regenPMSM.eRegen.controller.coreElement.PID.unitTime
- -2 -4.7913694777173943E-02       0                       0                
+ -2 -5.1066249637237777E-02       0                       0                
   6   256   # regenPMSM.eRegen.controller.coreElement.PID.addP.y
  -2       1                       0                       0                
   6   256   # regenPMSM.eRegen.controller.coreElement.PID.addP.k1
@@ -27266,13 +27266,13 @@ double initialValue(9287,6)
   1   280   # regenPMSM.eRegen.controller.coreElement.PID.addP.k2
  -1       1                       0                       0                
   1   280   # regenPMSM.eRegen.controller.coreElement.PID.P.k
- -2 -4.7913694777173943E-02       0                       0                
+ -2 -5.1066249637237777E-02       0                       0                
   6   256   # regenPMSM.eRegen.controller.coreElement.PID.P.y
  -2   10000                       0                       0                
   6   256   # regenPMSM.eRegen.controller.coreElement.PID.gainPID.k
- -2 -5.1413517764033190E-05       0                       0                
+ -2 -4.8286887412415935E-05       0                       0                
   6   256   # regenPMSM.eRegen.controller.coreElement.PID.gainPID.u
- -2 -5.1413517764033190E-01       0                       0                
+ -2 -4.8286887412415935E-01       0                       0                
   6   256   # regenPMSM.eRegen.controller.coreElement.PID.gainPID.y
  -1       1                       0                       0                
   1   280   # regenPMSM.eRegen.controller.coreElement.PID.addPID.k1
@@ -27290,7 +27290,7 @@ double initialValue(9287,6)
   6   258   # regenPMSM.eRegen.controller.coreElement.PID.limiter.homotopyType
  -2       1                       0                       0                
   6   257   # regenPMSM.eRegen.controller.coreElement.PID.limiter.limitsAtInit
- -2 -5.1413517764033190E-01       0                       0                
+ -2 -4.8286887412415935E-01       0                       0                
   6   256   # regenPMSM.eRegen.controller.coreElement.PID.limiter.u
  -2       1                       0                       0                
   6   769   # regenPMSM.eRegen.controller.coreElement.PID.with_I
@@ -27308,7 +27308,7 @@ double initialValue(9287,6)
   6   257   # regenPMSM.eRegen.inverter.useThermalPort
  -2       0                       0                       0                
   6   260   # regenPMSM.eRegen.inverter.n1.v
- -2  6.6578691826126943E-05       0                       0                
+ -2  6.6644060724530446E-05       0                       0                
   6   388   # regenPMSM.eRegen.inverter.p2.i
  -2       0                       0                       0                
   6   260   # regenPMSM.eRegen.inverter.n2.v
@@ -27318,7 +27318,7 @@ double initialValue(9287,6)
   6   260   # regenPMSM.eRegen.inverter.inputVoltageSensor1.n.v
  -2       0                       0                       0                
   6   388   # regenPMSM.eRegen.inverter.inputVoltageSensor1.n.i
- -2 -2.4634115975666969E-02       0                       0                
+ -2 -2.4658302468076265E-02       0                       0                
   6   256   # regenPMSM.eRegen.inverter.product1.y
  -2       0                       0                       0                
   6   388   # regenPMSM.eRegen.inverter.inputVoltageSensor2.p.i
@@ -27326,7 +27326,7 @@ double initialValue(9287,6)
   6   260   # regenPMSM.eRegen.inverter.inputVoltageSensor2.n.v
  -2       0                       0                       0                
   6   388   # regenPMSM.eRegen.inverter.inputVoltageSensor2.n.i
- -2  2.4634115975666969E-02       0                       0                
+ -2  2.4658302468076265E-02       0                       0                
   6   256   # regenPMSM.eRegen.inverter.product2.y
  -2       0                       0                       0                
   6   257   # regenPMSM.eRegen.inverter.useVoltageGuess
@@ -27478,7 +27478,7 @@ double initialValue(9287,6)
   6  1284   # regenPMSM.eRegen.inverter.coreElement.lossPower.voltageSensor.n.v
  -2       0                       0                       0                
   6  1412   # regenPMSM.eRegen.inverter.coreElement.lossPower.voltageSensor.n.i
- -2 -2.4634115975666969E-02       0                       0                
+ -2 -2.4658302468076265E-02       0                       0                
   6   256   # regenPMSM.eRegen.inverter.coreElement.providedPower.y
  -2       0                       0                       0                
   6   256   # regenPMSM.eRegen.inverter.coreElement.losses.k
@@ -27504,9 +27504,9 @@ double initialValue(9287,6)
   6   260   # regenPMSM.eRegen.inverter.coreElement.n1.v
  -2       0                       0                       0                
   6   260   # regenPMSM.eRegen.inverter.coreElement.n2.v
- -2  2.4634115975666969E-02       0                       0                
+ -2  2.4658302468076265E-02       0                       0                
   6   256   # regenPMSM.eRegen.inverter.coreElement.P_AC
- -2 -2.4634115975666969E-02       0                       0                
+ -2 -2.4658302468076265E-02       0                       0                
   6   288   # regenPMSM.eRegen.inverter.coreElement.P_DC
  -1  5.0000000000000000E-01       0                       0                
   1   280   # regenPMSM.eRegen.inverter.gain.k
@@ -27524,9 +27524,9 @@ double initialValue(9287,6)
   1   280   # regenPMSM.eRegen.inverter.addAbs.k1
  -1       1                       0                       0                
   1   280   # regenPMSM.eRegen.inverter.addAbs.k2
- -2  2.4634115975666969E-02       0                       0                
+ -2  2.4658302468076265E-02       0                       0                
   6   256   # regenPMSM.eRegen.inverter.addAbs.add.u1
- -2  2.4634115975666969E-02       0                       0                
+ -2  2.4658302468076265E-02       0                       0                
   6   256   # regenPMSM.eRegen.inverter.addAbs.add.u2
  -2       0                       0                       0                
   6   256   # regenPMSM.eRegen.inverter.addAbs.add.y
@@ -27558,7 +27558,7 @@ double initialValue(9287,6)
   6   260   # regenPMSM.eRegen.machine.electricPowerDC.nv.v
  -2       0                       0                       0                
   6   388   # regenPMSM.eRegen.machine.electricPowerDC.nv.i
- -2 -2.4634115975666969E-02       0                       0                
+ -2 -2.4658302468076265E-02       0                       0                
   6   256   # regenPMSM.eRegen.machine.electricPowerDC.power
  -2       0                       0                       0                
   6   388   # regenPMSM.eRegen.machine.electricPowerDC.voltageSensor.p.i
@@ -27568,9 +27568,9 @@ double initialValue(9287,6)
   6   388   # regenPMSM.eRegen.machine.electricPowerDC.voltageSensor.n.i
  -2    -500                       0                       0                
   6   256   # regenPMSM.eRegen.machine.toBus_minAvailableTorque.u
- -2 -5.1413517764033190E-01       0                       0                
+ -2 -4.8286887412415935E-01       0                       0                
   6   256   # regenPMSM.eRegen.machine.toBus_innerTorque.u
- -2  2.4634115975666969E-02       0                       0                
+ -2  2.4658302468076265E-02       0                       0                
   6   256   # regenPMSM.eRegen.machine.toBus_mechanicPower.u
  -1       0                       0                       0                
   1   280   # regenPMSM.eRegen.machine.fixed.phi0
@@ -27582,13 +27582,13 @@ double initialValue(9287,6)
   6   388   # regenPMSM.eRegen.machine.angleSensor.flange_a.tau
  -2       0                       0                       0                
   6   388   # regenPMSM.eRegen.machine.angleSensor.flange_b.tau
- -2  1.1141476791953703E+03       0                       0                
+ -2  1.1812132905516326E+03       0                       0                
   6   256   # regenPMSM.eRegen.machine.angleSensor.phi_rel
  -2       0                       0                       0                
   6   388   # regenPMSM.eRegen.machine.speedSensor.flange_a.tau
  -2       0                       0                       0                
   6   388   # regenPMSM.eRegen.machine.speedSensor.flange_b.tau
- -2  1.1141476791953703E+03       0                       0                
+ -2  1.1812132905516326E+03       0                       0                
   6   256   # regenPMSM.eRegen.machine.speedSensor.phi_rel
  -2       0                       0                       0                
   6   257   # regenPMSM.eRegen.machine.useVoltageGuess
@@ -27684,7 +27684,7 @@ double initialValue(9287,6)
   6   256   # regenPMSM.eRegen.machine.coreElement.V_guess
  -2       0                       0                       0                
   6   260   # regenPMSM.eRegen.machine.coreElement.pin_n.v
- -2 -2.4634115975666969E-02       0                       0                
+ -2 -2.4658302468076265E-02       0                       0                
   6   256   # regenPMSM.eRegen.machine.coreElement.P_el
  -2       1                       0                       0                
   6   257   # regenPMSM.eRegen.machine.coreElement.limitDesiredTorque.enableTorqueLimitation
@@ -27694,7 +27694,7 @@ double initialValue(9287,6)
   6   256   # regenPMSM.eRegen.machine.coreElement.limitDesiredTorque.tau_max
  -2       1                       0                       0                
   6   256   # regenPMSM.eRegen.machine.coreElement.limitDesiredTorque.characteristicSpeed
- -2  5.1413517764033190E-01       0                 1.0000000000000000E+100
+ -2  4.8286887412415935E-01       0                 1.0000000000000000E+100
   6  1280   # regenPMSM.eRegen.machine.coreElement.limitDesiredTorque.actualTorque
  -2       0                       0                       0                
   6   769   # regenPMSM.eRegen.machine.coreElement.torque.useSupport
@@ -27704,7 +27704,7 @@ double initialValue(9287,6)
   6   256   # regenPMSM.eRegen.machine.coreElement.rotorInertia.J
  -2       3                       1                       5                
   6   770   # regenPMSM.eRegen.machine.coreElement.rotorInertia.stateSelect
- -2 -2.4634115975666969E-02       0                       0                
+ -2 -2.4658302468076265E-02       0                       0                
   6   256   # regenPMSM.eRegen.machine.coreElement.multiSensor.power
  -1      -1                       0                       0                
   1   280   # regenPMSM.eRegen.machine.coreElement.signChange.k
@@ -27716,13 +27716,13 @@ double initialValue(9287,6)
   6   388   # regenPMSM.eRegen.machine.coreElement.relSpeedSensor.flange_a.tau
  -2       0                       0                       0                
   6   388   # regenPMSM.eRegen.machine.coreElement.relSpeedSensor.flange_b.tau
- -2  1.1141476791953703E+03       0                       0                
+ -2  1.1812132905516326E+03       0                       0                
   6   256   # regenPMSM.eRegen.machine.coreElement.relSpeedSensor.phi_rel
- -2 -2.4634115975666969E-02       0                       0                
+ -2 -2.4658302468076265E-02       0                       0                
   6   256   # regenPMSM.eRegen.machine.coreElement.electricPowerSource.P_actual
  -2  100000                       0                       0                
   6   256   # regenPMSM.eRegen.machine.coreElement.electricPowerSource.i_limit
- -2 -6.6578691826126943E-05       0                       0                
+ -2 -6.6644060724530446E-05       0                       0                
   6   256   # regenPMSM.eRegen.machine.coreElement.electricPowerSource.i_des
  -2       0                       0                       0                
   6   260   # regenPMSM.eRegen.machine.coreElement.electricPowerSource.n.v
@@ -27818,7 +27818,7 @@ double initialValue(9287,6)
   1   280   # regenPMSM.eRegen.machine.coreElement.compute_P_el.resultingPower.k2
  -2       0                       0                       0                
   6   256   # regenPMSM.eRegen.machine.coreElement.compute_P_el.losses.k
- -2 -2.4634115975666969E-02       0                       0                
+ -2 -2.4658302468076265E-02       0                       0                
   6   288   # regenPMSM.eRegen.machine.coreElement.compute_P_el.losses.u
  -2       0                       0                       0                
   6   388   # regenPMSM.eRegen.speedSensor.flange.tau
@@ -27834,7 +27834,7 @@ double initialValue(9287,6)
   6   256   # partial_PMSM.eTraction.controller.coreElement.PID.I.y_start
  -2       0                       0                       0                
   6   256   # partial_PMSM.eTraction.controller.coreElement.PID.I.u
- -2  9.5252968352662459E-03       0                       0                
+ -2  9.5603361070114544E-03       0                       0                
   2   272   # partial_PMSM.eTraction.controller.coreElement.PID.I.y
  -2       0                       0                       0                
   3   256   # partial_PMSM.eTraction.controller.coreElement.PID.I.der(y)
@@ -27868,11 +27868,11 @@ double initialValue(9287,6)
   6   258   # partial_PMSM.eRegen.controller.coreElement.PID.I.initType
  -2       0                       0                       0                
   6   256   # partial_PMSM.eRegen.controller.coreElement.PID.I.y_start
- -2 -1.3954911874592647E-02       0                       0                
+ -2 -1.3472416177682864E-02       0                       0                
   6   256   # partial_PMSM.eRegen.controller.coreElement.PID.I.u
- -2  4.4307542345899658E-03       0                       0                
+ -2  3.9131801203722396E-03       0                       0                
   2   272   # partial_PMSM.eRegen.controller.coreElement.PID.I.y
- -2 -1.3954911874592647E-05       0                       0                
+ -2 -1.3472416177682864E-05       0                       0                
   3   256   # partial_PMSM.eRegen.controller.coreElement.PID.I.der(y)
  -2       0                       0                       0                
   6   769   # partial_PMSM.eRegen.controller.coreElement.PID.I.local_reset
@@ -27906,7 +27906,7 @@ double initialValue(9287,6)
   6   256   # regenPMSM.eTraction.controller.coreElement.PID.I.y_start
  -2       0                       0                       0                
   6   256   # regenPMSM.eTraction.controller.coreElement.PID.I.u
- -2  5.2515500512989176E-05       0                       0                
+ -2  4.9486500828213232E-05       0                       0                
   2   272   # regenPMSM.eTraction.controller.coreElement.PID.I.y
  -2       0                       0                       0                
   3   256   # regenPMSM.eTraction.controller.coreElement.PID.I.der(y)
@@ -27940,11 +27940,11 @@ double initialValue(9287,6)
   6   258   # regenPMSM.eRegen.controller.coreElement.PID.I.initType
  -2       0                       0                       0                
   6   256   # regenPMSM.eRegen.controller.coreElement.PID.I.y_start
- -2 -4.7913694777173943E-02       0                       0                
+ -2 -5.1066249637237777E-02       0                       0                
   6   256   # regenPMSM.eRegen.controller.coreElement.PID.I.u
- -2  4.7862281259409910E-02       0                       0                
+ -2  5.1017962749825362E-02       0                       0                
   2   272   # regenPMSM.eRegen.controller.coreElement.PID.I.y
- -2 -4.7913694777173944E-05       0                       0                
+ -2 -5.1066249637237777E-05       0                       0                
   3   256   # regenPMSM.eRegen.controller.coreElement.PID.I.der(y)
  -2       0                       0                       0                
   6   769   # regenPMSM.eRegen.controller.coreElement.PID.I.local_reset
