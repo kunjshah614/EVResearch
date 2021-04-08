@@ -1,36 +1,12 @@
-Log-file of program ./dymosim
-(generated: Mon Apr  5 20:48:14 2021)
-
-dymosim started
-... "dsin.txt" loading (dymosim input file)
-... "enhRegenEV.mat" creating (simulation result file)
-
-Integration started at T = 0 using integration method DASSL
-(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
-
-... Warning message from dymosim
-At time T = 1.551451e+02 in current integration interval
-T_interval = 1.527200e+02 ... 1.565380e+02
-a large amount of work has been expended
-(about 500 steps) in the integrator. Probably the communication
-interval is too large or the system is stiff.
-
-Integration terminated successfully at T = 1909
-   CPU-time for integration                : 30.1 seconds
-   CPU-time for one grid interval          : 60.2 milliseconds
-   CPU-time for initialization             : 0.001 seconds
-   Number of result points                 : 2390
-   Number of grid points                   : 501
-   Number of accepted steps                : 489739
-   Number of f-evaluations (dynamics)      : 1138936
-   Number of crossing function evaluations : 503825
-   Number of Jacobian-evaluations          : 193311
-   Number of model time events             : 1
-   Number of input time events             : 0
-   Number of state events                  : 944
-   Number of step events                   : 0
-   Minimum integration stepsize            : 1.83e-07
-   Maximum integration stepsize            : 15.6
-   Maximum integration order               : 5
-Calling terminal section
-... "dsfinal.txt" creating (final states)
+ 
+Compiling and linking the model (Visual C++). 
+ 
+dsmodel.c
+dsmodelext1.c
+Generating Code...
+   Creating library dymosim.lib and object dymosim.exp
+LINK : warning LNK4217: symbol '___iob_func' defined in 'dsmodel.obj' is imported by 'libds.lib(dsres.obj)' in function '_ds_res_int_poll'
+LINK : warning LNK4286: symbol '___iob_func' defined in 'dsmodel.obj' is imported by 'libds.lib(amat.obj)'
+ 
+Successful generation of Dymosim. 
+ 
